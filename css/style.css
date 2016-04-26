@@ -339,7 +339,23 @@ footer ul li {
     border: 1px solid #ddd;
     padding: 7px 12px;
     margin: 5px;
+}
+
+footer ul li a {
     color: #ffffff;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+}
+
+footer .glyphicon:hover {
+    color: #306d9f;
 }
 
 #information {
@@ -450,17 +466,4 @@ footer ul li {
     width: 600px;
     height: 100px;
     margin-top: 40px;
-}
-
-footer {
-    padding: 20px 0;
-}
-
-footer .glyphicon {
-    color: #333333;
-    font-size: 60px;
-}
-
-footer .glyphicon:hover {
-    color: #306d9f;
 }
