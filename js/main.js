@@ -35,9 +35,19 @@ var initLoader = {
             });
         }
     }
+    , animateHover: function () {
+        $('#information .intrestDivs .square').mouseenter(function () {
+            $(this).addClass('animated bounce');
+        });
+        $('#information .intrestDivs .square').mouseleave(function () {
+            $(this).removeClass('animated bounce');
+        });
+
+    }
 };
 $(document).ready(function () {
     initLoader.navScroll();
+    initLoader.animateHover();
     $('a').click(function () {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
@@ -88,7 +98,7 @@ $(document).ready(function () {
     }
 
     var cnt = 0
-        , texts = ["Akash Jeedigunta", "a Web Developer", "Focussed", "ready to Learn"];
+        , texts = ["Akash Jeedigunta", "a Web Developer"];
 
     // save the texts in an array for re-use
     $(".textContent").each(function () {
