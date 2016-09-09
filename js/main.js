@@ -37,10 +37,10 @@ var initLoader = {
     }
     , animateHover: function () {
         $('#information .intrestDivs .square').mouseenter(function () {
-            $(this).addClass('animated jello');
+            $(this).addClass('animated pulse');
         });
         $('#information .intrestDivs .square').mouseleave(function () {
-            $(this).removeClass('animated jello');
+            $(this).removeClass('animated pulse');
         });
 
     }
