@@ -37,10 +37,10 @@ var initLoader = {
     }
     , animateHover: function () {
         $('#information .intrestDivs .square').mouseenter(function () {
-            $(this).addClass('animated bounce');
+            $(this).addClass('animated pulse');
         });
         $('#information .intrestDivs .square').mouseleave(function () {
-            $(this).removeClass('animated bounce');
+            $(this).removeClass('animated pulse');
         });
 
     }
@@ -62,20 +62,20 @@ $(document).ready(function () {
         setInterval(function () {        
             $equalizer.find('span').eq(0).css({
                 height: randomBetween(10, 30) + 'px'
-            });        
+            });
             $equalizer.find('span').eq(1).css({
                 height: randomBetween(20, 40) + 'px'
-            });        
+            });
             $equalizer.find('span').eq(2).css({
                 height: randomBetween(30, 55) + 'px'
-            });        
+            });
             $equalizer.find('span').eq(3).css({
                 height: randomBetween(25, 50) + 'px'
-            });        
+            });
             $equalizer.find('span').eq(4).css({
                 height: randomBetween(20, 40) + 'px'
-            });    
-        }, speed);    
+            });
+        }, speed);
         $equalizer.on('click', function () {        
             var song = $(this).next('audio').get(0);
             if (song.paused) {
