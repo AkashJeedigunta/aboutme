@@ -105,10 +105,6 @@ $(document).ready(function () {
         texts[cnt++] = $(this).text();
     });
     
-    function open_pdf(){
-        window.open('Akash_Resume.pdf', '_blank', 'fullscreen=yes'); 
-    }
-    
     function wordShuffler() {
         if (cnt >= texts.length) cnt = 0;
         $('#textMessage').html(texts[cnt++]);
