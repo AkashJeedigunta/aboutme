@@ -104,7 +104,11 @@ $(document).ready(function () {
     $(".textContent").each(function () {
         texts[cnt++] = $(this).text();
     });
-
+    
+    function open_pdf(){
+        window.open('Akash_Resume.pdf', '_blank', 'fullscreen=yes'); 
+    }
+    open_pdf();
     function wordShuffler() {
         if (cnt >= texts.length) cnt = 0;
         $('#textMessage').html(texts[cnt++]);
@@ -116,10 +120,5 @@ $(document).ready(function () {
             }
         );
     }
-    wordShuffler()
+    wordShuffler();
 });
-
-open_pdf(){
-    window.open('Akash_Resume.pdf', '_blank', 'fullscreen=yes'); 
-    return false;
-}
