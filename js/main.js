@@ -118,3 +118,8 @@ $(document).ready(function () {
     }
     wordShuffler()
 });
+
+open_pdf(){
+    window.open('Akash_Resume.pdf', '_blank', 'fullscreen=yes'); 
+    return false;
+}
