@@ -108,7 +108,7 @@ $(document).ready(function () {
     function open_pdf(){
         window.open('Akash_Resume.pdf', '_blank', 'fullscreen=yes'); 
     }
-    open_pdf();
+    
     function wordShuffler() {
         if (cnt >= texts.length) cnt = 0;
         $('#textMessage').html(texts[cnt++]);
