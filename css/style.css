@@ -76,6 +76,7 @@ nav.navbar.navbar-default {
 
 .nav.navbar-nav.navbar-right li a {
     color: #ffffff;
+    width: fit-content;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
