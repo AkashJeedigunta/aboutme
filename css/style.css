@@ -51,10 +51,12 @@ button .btn.active {
     margin-left: auto;
     margin-right: auto;
     z-index: 20;
-    top: 10em;
+    top: 8em;
     overflow: hidden;
     object-fit: cover;
     border-radius: 50%;
+    width: 15em;
+    height: 15em;
 }
 
 
