@@ -55,6 +55,8 @@ button .btn.active {
     overflow: hidden;
     object-fit: cover;
     border-radius: 50%;
+    width: 15em;
+    height: 15em;
 }
 
 
@@ -74,6 +76,7 @@ nav.navbar.navbar-default {
 
 .nav.navbar-nav.navbar-right li a {
     color: #ffffff;
+    width: fit-content;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
