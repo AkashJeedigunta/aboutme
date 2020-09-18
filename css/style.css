@@ -45,13 +45,13 @@ button .btn.active {
     vertical-align: top;
     display: inline-block;
     margin: 0px auto;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     z-index: 20;
-    top: 8em;
+    top: -5em;
     overflow: hidden;
     object-fit: cover;
     border-radius: 50%;
